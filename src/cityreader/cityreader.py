@@ -75,7 +75,6 @@ for c in cities:
 # TODO Get latitude and longitude values from the user
 lat1, lon1 = input('Enter lat1,lon1: ').split(',')
 lat2, lon2 = input('Enter lat2,lon2: ').split(',')
-print(lat1, lon1, lat2, lon2)
 
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
   # within will hold the cities that fall within the specified region
